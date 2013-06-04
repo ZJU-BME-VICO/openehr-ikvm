@@ -192,6 +192,9 @@
     <Reference Include="jsr-275-0.9.1, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>lib\jsr-275-0.9.1.dll</HintPath>
     </Reference>
+    <Reference Include="jsr-275-0.9.4">
+      <HintPath>lib\jsr-275-0.9.4.dll</HintPath>
+    </Reference>
     <Reference Include="jsr173_api-1.0, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>lib\jsr173_api-1.0.dll</HintPath>
@@ -207,6 +210,9 @@
     <Reference Include="log4j-1.2.13, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>lib\log4j-1.2.13.dll</HintPath>
+    </Reference>
+    <Reference Include="log4j-1.2.16">
+      <HintPath>lib\log4j-1.2.16.dll</HintPath>
     </Reference>
     <Reference Include="log4j-1.2.8, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
