@@ -41,8 +41,8 @@ namespace openehr_net_ikvm.adl_parser
 
 		    assertCDuration(archetype.node("/types[at0001]/items[at1005]/value"),
 				    null,
-				    new org.openehr.rm.support.basic.Interval(null, org.openehr.rm.datatypes.quantity.datetime.DvDuration.getInstance("PT1h"), 
-						    false, true));
+				    new org.openehr.rm.support.basic.Interval(null, org.openehr.rm.datatypes.quantity.datetime.DvDuration.getInstance("PT1h"),
+                            java.lang.Boolean.FALSE, java.lang.Boolean.TRUE));
 		
 		    assertCDuration(archetype.node("/types[at0001]/items[at1006]/value"), 
 				    "P1DT1H2M3S", null);
@@ -101,8 +101,8 @@ namespace openehr_net_ikvm.adl_parser
 
 		    assertCDuration(archetype.node("/types[at0002]/items[at1005]/value"), 
 				    null,
-				    new org.openehr.rm.support.basic.Interval(null, org.openehr.rm.datatypes.quantity.datetime.DvDuration.getInstance("PT1h"), 
-						    false, true), "P1d");
+				    new org.openehr.rm.support.basic.Interval(null, org.openehr.rm.datatypes.quantity.datetime.DvDuration.getInstance("PT1h"),
+                            java.lang.Boolean.FALSE, java.lang.Boolean.TRUE), "P1d");
 		    // to supported newly added duration pattern
 		    assertCDuration(archetype.node("/types[at0002]/items[at1006]/value"), 
 				    null, null, "P1d", "PDTH");

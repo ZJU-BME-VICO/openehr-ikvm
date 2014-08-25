@@ -122,11 +122,11 @@ namespace openehr_net_ikvm.adl_parser
             assertCInteger(list.get(16), new org.openehr.rm.support.basic.Interval(new java.lang.Integer(100), new java.lang.Integer(100)), null, null);
 		
 		    // non-inclusive intervals
-            assertCInteger(list.get(17), new org.openehr.rm.support.basic.Interval(new java.lang.Integer(0), new java.lang.Integer(100), false, true), null, null);
+            assertCInteger(list.get(17), new org.openehr.rm.support.basic.Interval(new java.lang.Integer(0), new java.lang.Integer(100), java.lang.Boolean.FALSE, java.lang.Boolean.TRUE), null, null);
 
-            assertCInteger(list.get(18), new org.openehr.rm.support.basic.Interval(new java.lang.Integer(0), new java.lang.Integer(100), true, false), null, null);
+            assertCInteger(list.get(18), new org.openehr.rm.support.basic.Interval(new java.lang.Integer(0), new java.lang.Integer(100), java.lang.Boolean.TRUE, java.lang.Boolean.FALSE), null, null);
 
-            assertCInteger(list.get(19), new org.openehr.rm.support.basic.Interval(new java.lang.Integer(0), new java.lang.Integer(100), false, false), null, null);
+            assertCInteger(list.get(19), new org.openehr.rm.support.basic.Interval(new java.lang.Integer(0), new java.lang.Integer(100), java.lang.Boolean.FALSE, java.lang.Boolean.FALSE), null, null);
 	    }
 
 	    /**
@@ -180,13 +180,13 @@ namespace openehr_net_ikvm.adl_parser
 		
 		    // non-inclusive interval
             assertCReal(list.get(17), new org.openehr.rm.support.basic.Interval(new java.lang.Double(0.0),
-				    new java.lang.Double(100.0), false, true), null, null);
+                    new java.lang.Double(100.0), java.lang.Boolean.FALSE, java.lang.Boolean.TRUE), null, null);
 
             assertCReal(list.get(18), new org.openehr.rm.support.basic.Interval(new java.lang.Double(0.0),
-				    new java.lang.Double(100.0), true, false), null, null);
+                    new java.lang.Double(100.0), java.lang.Boolean.TRUE, java.lang.Boolean.FALSE), null, null);
 
             assertCReal(list.get(19), new org.openehr.rm.support.basic.Interval(new java.lang.Double(0.0),
-				    new java.lang.Double(100.0), false, false), null, null);		
+                    new java.lang.Double(100.0), java.lang.Boolean.FALSE, java.lang.Boolean.FALSE), null, null);		
 	    }
 
 	    /**
@@ -549,22 +549,22 @@ namespace openehr_net_ikvm.adl_parser
 
         private org.openehr.rm.support.basic.Interval greaterThan(java.lang.Comparable value)
         {
-            return new org.openehr.rm.support.basic.Interval(value, null, false, false);
+            return new org.openehr.rm.support.basic.Interval(value, null, java.lang.Boolean.FALSE, java.lang.Boolean.FALSE);
 	    }
 
         private org.openehr.rm.support.basic.Interval greaterEqual(java.lang.Comparable value)
         {
-            return new org.openehr.rm.support.basic.Interval(value, null, true, false);
+            return new org.openehr.rm.support.basic.Interval(value, null, java.lang.Boolean.TRUE, java.lang.Boolean.FALSE);
 	    }
 
         private org.openehr.rm.support.basic.Interval lessThan(java.lang.Comparable value)
         {
-            return new org.openehr.rm.support.basic.Interval(null, value, false, false);
+            return new org.openehr.rm.support.basic.Interval(null, value, java.lang.Boolean.FALSE, java.lang.Boolean.FALSE);
 	    }
 
         private org.openehr.rm.support.basic.Interval lessEqual(java.lang.Comparable value)
         {
-            return new org.openehr.rm.support.basic.Interval(null, value, false, true);
+            return new org.openehr.rm.support.basic.Interval(null, value, java.lang.Boolean.FALSE, java.lang.Boolean.TRUE);
 	    }
 
         private java.util.List attributeList;

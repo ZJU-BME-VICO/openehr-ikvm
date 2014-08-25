@@ -60,7 +60,7 @@ namespace openehr_net_ikvm.adl_parser
             assertCDvQuantityItem((org.openehr.am.openehrprofile.datatypes.quantity.CDvQuantityItem)list.get(1), "mth", new org.openehr.rm.support.basic.Interval(temp1, temp2), new org.openehr.rm.support.basic.Interval(temp3, temp3));
         
             org.openehr.rm.support.measurement.MeasurementService ms = org.openehr.rm.support.measurement.SimpleMeasurementService.getInstance();
-            org.openehr.rm.datatypes.quantity.DvQuantity expected = new org.openehr.rm.datatypes.quantity.DvQuantity("yr", 8.0, 2, ms);
+            org.openehr.rm.datatypes.quantity.DvQuantity expected = new org.openehr.rm.datatypes.quantity.DvQuantity("yr", new java.lang.Double(8.0), new java.lang.Integer(2), ms);
             Assert.AreEqual(expected, 
         		    cdvquantity.getAssumedValue(), "assumed value wrong");        
         }

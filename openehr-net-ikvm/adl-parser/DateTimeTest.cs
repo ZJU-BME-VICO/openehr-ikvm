@@ -408,22 +408,22 @@ namespace openehr_net_ikvm.adl_parser
         }
         private Interval greaterThan(java.lang.Comparable value)
         {
-            return new Interval(value, null, false, false);
+            return new Interval(value, null, java.lang.Boolean.FALSE, java.lang.Boolean.FALSE);
         }
 
         private Interval greaterEqual(java.lang.Comparable value)
         {
-            return new Interval(value, null, true, false);
+            return new Interval(value, null, java.lang.Boolean.TRUE, java.lang.Boolean.FALSE);
         }
 
         private Interval lessThan(java.lang.Comparable value)
         {
-            return new Interval(null, value, false, false);
+            return new Interval(null, value, java.lang.Boolean.FALSE, java.lang.Boolean.FALSE);
         }
 
         private Interval lessEqual(java.lang.Comparable value)
         {
-            return new Interval(null, value, false, true);
+            return new Interval(null, value, java.lang.Boolean.FALSE, java.lang.Boolean.TRUE);
         }
 
         // private java.util.List attributeList;

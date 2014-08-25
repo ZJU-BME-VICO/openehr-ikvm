@@ -72,7 +72,7 @@ namespace openehr_net_ikvm.adl_parser
             // 2nd PERSON
             obj = (CComplexObject) attr.getChildren().get(1);
             assertCComplexObject(obj, "PERSON", null,
-                    new Interval(new java.lang.Integer(0), null, true, false), 1);
+                    new Interval(new java.lang.Integer(0), null, java.lang.Boolean.TRUE, java.lang.Boolean.FALSE), 1);
         }
     
         [TestMethod]

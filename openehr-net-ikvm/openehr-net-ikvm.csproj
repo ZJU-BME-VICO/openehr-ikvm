@@ -33,32 +33,29 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="adl-parser-1.0.5-SNAPSHOT">
-      <HintPath>lib\adl-parser-1.0.5-SNAPSHOT.dll</HintPath>
+    <Reference Include="adl-parser-1.0.5.3">
+      <HintPath>lib\adl-parser-1.0.5.3.dll</HintPath>
     </Reference>
-    <Reference Include="adl-serializer-1.0.5-SNAPSHOT">
-      <HintPath>lib\adl-serializer-1.0.5-SNAPSHOT.dll</HintPath>
+    <Reference Include="adl-serializer-1.0.5.3">
+      <HintPath>lib\adl-serializer-1.0.5.3.dll</HintPath>
     </Reference>
-    <Reference Include="archetype-validator-1.0.5-SNAPSHOT">
-      <HintPath>lib\archetype-validator-1.0.5-SNAPSHOT.dll</HintPath>
+    <Reference Include="archetype-validator-1.0.5.3">
+      <HintPath>lib\archetype-validator-1.0.5.3.dll</HintPath>
     </Reference>
-    <Reference Include="commons-io-2.3, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="commons-io-2.3">
       <HintPath>lib\commons-io-2.3.dll</HintPath>
     </Reference>
-    <Reference Include="commons-jxpath-1.3, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="commons-jxpath-1.3">
       <HintPath>lib\commons-jxpath-1.3.dll</HintPath>
     </Reference>
-    <Reference Include="commons-lang-2.6, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="commons-lang-2.6">
       <HintPath>lib\commons-lang-2.6.dll</HintPath>
     </Reference>
-    <Reference Include="dadl-binding-1.0.5-SNAPSHOT">
-      <HintPath>lib\dadl-binding-1.0.5-SNAPSHOT.dll</HintPath>
+    <Reference Include="dadl-binding-1.0.5.3">
+      <HintPath>lib\dadl-binding-1.0.5.3.dll</HintPath>
     </Reference>
-    <Reference Include="dadl-parser-1.0.5-SNAPSHOT">
-      <HintPath>lib\dadl-parser-1.0.5-SNAPSHOT.dll</HintPath>
+    <Reference Include="dadl-parser-1.0.5.3">
+      <HintPath>lib\dadl-parser-1.0.5.3.dll</HintPath>
     </Reference>
     <Reference Include="dom4j-1.6.1">
       <HintPath>lib\dom4j-1.6.1.dll</HintPath>
@@ -202,37 +199,33 @@
     <Reference Include="log4j-1.2.16">
       <HintPath>lib\log4j-1.2.16.dll</HintPath>
     </Reference>
-    <Reference Include="measure-serv-1.0.5-SNAPSHOT">
-      <HintPath>lib\measure-serv-1.0.5-SNAPSHOT.dll</HintPath>
+    <Reference Include="measure-serv-1.0.5.3">
+      <HintPath>lib\measure-serv-1.0.5.3.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
-    <Reference Include="mini-termserv-1.0.5-SNAPSHOT">
-      <HintPath>lib\mini-termserv-1.0.5-SNAPSHOT.dll</HintPath>
+    <Reference Include="mini-termserv-1.0.5.3">
+      <HintPath>lib\mini-termserv-1.0.5.3.dll</HintPath>
     </Reference>
-    <Reference Include="oet-parser-1.0.5-SNAPSHOT">
-      <HintPath>lib\oet-parser-1.0.5-SNAPSHOT.dll</HintPath>
+    <Reference Include="oet-parser-1.0.5.3">
+      <HintPath>lib\oet-parser-1.0.5.3.dll</HintPath>
     </Reference>
-    <Reference Include="openehr-aom-1.0.5-SNAPSHOT">
-      <HintPath>lib\openehr-aom-1.0.5-SNAPSHOT.dll</HintPath>
+    <Reference Include="openehr-aom-1.0.5.3">
+      <HintPath>lib\openehr-aom-1.0.5.3.dll</HintPath>
     </Reference>
-    <Reference Include="openehr-ap-1.0.5-SNAPSHOT">
-      <HintPath>lib\openehr-ap-1.0.5-SNAPSHOT.dll</HintPath>
+    <Reference Include="openehr-ap-1.0.5.3">
+      <HintPath>lib\openehr-ap-1.0.5.3.dll</HintPath>
     </Reference>
-    <Reference Include="openehr-rm-core-1.0.5-SNAPSHOT">
-      <HintPath>lib\openehr-rm-core-1.0.5-SNAPSHOT.dll</HintPath>
+    <Reference Include="openehr-rm-core-1.0.5.3">
+      <HintPath>lib\openehr-rm-core-1.0.5.3.dll</HintPath>
     </Reference>
-    <Reference Include="openehr-rm-domain-1.0.5-SNAPSHOT">
-      <HintPath>lib\openehr-rm-domain-1.0.5-SNAPSHOT.dll</HintPath>
+    <Reference Include="openehr-rm-domain-1.0.5.3">
+      <HintPath>lib\openehr-rm-domain-1.0.5.3.dll</HintPath>
     </Reference>
-    <Reference Include="rm-builder-1.0.5-SNAPSHOT">
-      <HintPath>lib\rm-builder-1.0.5-SNAPSHOT.dll</HintPath>
+    <Reference Include="rm-builder-1.0.5.3">
+      <HintPath>lib\rm-builder-1.0.5.3.dll</HintPath>
     </Reference>
-    <Reference Include="rm-skeleton-1.0.5-SNAPSHOT">
-      <HintPath>lib\rm-skeleton-1.0.5-SNAPSHOT.dll</HintPath>
-    </Reference>
-    <Reference Include="saxon-8.7, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>lib\saxon-8.7.dll</HintPath>
+    <Reference Include="rm-skeleton-1.0.5.3">
+      <HintPath>lib\rm-skeleton-1.0.5.3.dll</HintPath>
     </Reference>
     <Reference Include="stax-1.1.1-dev, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -249,19 +242,14 @@
     <Reference Include="xml-apis-1.0.b2">
       <HintPath>lib\xml-apis-1.0.b2.dll</HintPath>
     </Reference>
-    <Reference Include="xml-binding-1.0.5-SNAPSHOT">
-      <HintPath>lib\xml-binding-1.0.5-SNAPSHOT.dll</HintPath>
+    <Reference Include="xml-binding-1.0.5.3">
+      <HintPath>lib\xml-binding-1.0.5.3.dll</HintPath>
     </Reference>
-    <Reference Include="xml-serializer-1.0.5-SNAPSHOT">
-      <HintPath>lib\xml-serializer-1.0.5-SNAPSHOT.dll</HintPath>
+    <Reference Include="xml-serializer-1.0.5.3">
+      <HintPath>lib\xml-serializer-1.0.5.3.dll</HintPath>
     </Reference>
-    <Reference Include="xmlbeans-2.3.0, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="xmlbeans-2.3.0">
       <HintPath>lib\xmlbeans-2.3.0.dll</HintPath>
-    </Reference>
-    <Reference Include="xmlbeans-xpath-2.3.0, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>lib\xmlbeans-xpath-2.3.0.dll</HintPath>
     </Reference>
     <Reference Include="xpp3_min-1.1.4c, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
